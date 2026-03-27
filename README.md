@@ -1,7 +1,7 @@
 Cosa ho fatto:
 **Ho tolto gli underscore dalle variabili locali dentro le funzioni**
 **Ho sistemato le cartelle**
-Ho tolto CameraFollows. Ora uso la Cinemachine(provando a usare una Timeline).
+Ho tolto $\color{green}{\text{CameraFollows}. Ora uso la Cinemachine(provando a usare una Timeline).
 Nel PlayerController : Ho usato gli Eventi. In Awake, il controller si "iscrive" all'evento OnDeath.
 Quando il Player muore, viene chiamata automaticamente DisableMovement. Ho  aggiunto OnDestroy(),iscrivendomi e disiscrivendomi.
 Il movimento era scritto dentro FixedUpdate.Ho creato Move().Usavo Time.deltaTime dentro FixedUpdate, adesso l'ho cambiato con Time.fixedDeltaTime.
